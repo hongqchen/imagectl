@@ -19,8 +19,6 @@ imagectl 则是将此**过程自动化**的一个小工具
 
 ## 4.1 Github
 
-### 4.1.1 准备 github 网站 access token
-
 - 登录 [github](https://github.com/)
 - 点击右上角的头像，并选中 Settings 选项
 - 左侧菜单栏选中 Developer settings
@@ -28,7 +26,6 @@ imagectl 则是将此**过程自动化**的一个小工具
 
 ## 4.2 阿里云
 
-### 4.2.1 准备阿里云访问密钥
 - [登录](https://usercenter.console.aliyun.com/) 新建 access token 并记录
 - [登录阿里云镜像服务](https://cr.console.aliyun.com/cn-chengdu/instance/namespaces)创建命名空间，请自行切换地域
 
