@@ -1,25 +1,21 @@
 # 1.imagectl 是什么？
-***
 
 使用 kubernetes 时，或许经常出现这样的场景：“Pod 创建过程失败，并处于 ErrImagePull 状态”，这是由于部分镜像网站被 GFW 阻挡，导致无法拉取镜像，如常见的 gcr.io 等等
 
-这时，就需要将镜像同步至国内镜像站，如阿里云镜像 ACR 以供下载
+这时，就需要将镜像同步至阿里云镜像 ACR 以供下载
 imagectl 则是将此**过程自动化**的一个小工具
 
 支持多协程拉取镜像
 
 # 2.版本说明
-***
 
 基于 Golang 1.17.2 开发
 
 # 3.安装
-***
 
 最新二进制程序文件可访问 [releases](https://github.com/hongqchen/imagectl/releases) 获取
 
 # 4.使用说明
-***
 
 ## 4.1 Github
 
